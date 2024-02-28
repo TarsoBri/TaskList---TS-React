@@ -1,0 +1,15 @@
+footer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(28, 28, 28);
+    margin-top: 7em;
+}
+
+footer span {
+    color: rgb(239, 239, 1);
+}
