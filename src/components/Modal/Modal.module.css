@@ -1,0 +1,58 @@
+.fade {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: black;
+    opacity: 0.3;
+    z-index: 1;
+}
+
+
+.modal {
+    z-index: 2;
+    margin: 0 auto;
+    width: 90vw;
+    max-width: 500px;
+    border-radius: 10px;
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(61, 61, 61);
+    box-shadow: 5px 5px 10px #0000008c;
+    position: fixed;
+    top: 10%;
+    left: 0;
+    right: 0;
+
+    .modal_top {
+        display: flex;
+        justify-content: center;
+
+        span {
+            position: absolute;
+            left: 0%;
+            top: 0%;
+            font-size: 1.4em;
+            padding: 1em 1.5em;
+            cursor: pointer;
+            transition: all .2s;
+        }
+
+        span:hover {
+            color: red;
+        }
+
+        h2 {
+            margin-bottom: 1em;
+        }
+    }
+
+    form {
+        width: 90%;
+    }
+
+
+
+}

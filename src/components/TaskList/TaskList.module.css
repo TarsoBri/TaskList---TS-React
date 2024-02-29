@@ -1,0 +1,59 @@
+.task_list {
+
+    .task {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(88, 88, 88);
+        padding-block: 1em;
+        margin-bottom: 1em;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px #0000008c;
+        border-bottom: 2px solid rgb(255, 255, 255);
+        padding-inline: 1em;
+
+        .task_details {
+            text-align: left;
+
+            h3 {
+                word-break: break-all;
+                margin: 0;
+                padding-bottom: 10px;
+            }
+
+            p {
+                word-break: break-all;
+                margin: 0;
+            }
+
+        }
+
+        .task_buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 45px;
+
+            button {
+                background-color: rgb(44, 44, 44);
+                border-radius: 50%;
+                padding: .4em;
+                border: none;
+                cursor: pointer;
+                color: white;
+                font-size: 1.2em;
+                transition: all .2s;
+            }
+
+            .edit:hover {
+                color: rgb(239, 239, 1);
+            }
+
+            .delete:hover {
+                color: red;
+
+            }
+        }
+
+    }
+}

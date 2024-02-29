@@ -3,8 +3,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5em;
-    position: absolute;
+    height: 10vh;
     bottom: 0;
     background-color: rgb(28, 28, 28);
     margin-top: 7em;

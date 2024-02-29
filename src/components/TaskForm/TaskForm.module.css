@@ -1,15 +1,16 @@
 .form {
-    padding: 2em;
+    padding-bottom: 3em;
     display: flex;
     flex-direction: column;
     text-align: start;
     margin: auto;
-    max-width: 500px;
+
 
     label {
         display: flex;
         flex-direction: column;
         margin-block: .5em;
+        
 
         span {
             padding-block: .5em;
@@ -23,6 +24,7 @@
             padding: .5em;
             font-size: 1.1em;
             border: none;
+            box-shadow:  5px 5px 10px #0000008c;
         }
     }
 
@@ -37,6 +39,8 @@
         border: none;
         cursor: pointer;
         transition: all .2s;
+        box-shadow:  5px 5px 10px #0000008c;
+
     }
 
     .submit:hover {
